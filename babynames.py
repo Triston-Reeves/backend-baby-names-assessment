@@ -36,8 +36,7 @@ import re
 import argparse
 
 
-# REGEX = re.compile('<td>(\w+)</td><td>(\w+)</td><td>(\w+)</td>')
-# REGEX_FILENAME = re.compile('baby(\w+).html')
+
 def extract_names(filename):
     """
     Given a single file name for babyXXXX.html, returns a
